@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contuct</title>
+
+    <style>
+        table{
+            width: 70%;
+            margin-right: auto;
+            margin-left: auto;
+            border: 5px solid black;
+            border-spacing: 5;
+            column-rule: 1px;
+            column-rule: 1px;
+        }
+        th, td {
+            border: 1px solid black;
+            border-spacing: 0;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="./thankyou.html" method="get">
+        <div class="container">
+            <fieldset>
+                <legend>Contact me Form</legend>
+                <label for="name">Your Name:</label>
+                &nbsp;
+                &nbsp;
+                <input type="text" placeholder="Enter your name">
+                <br>
+                <br>
+                <label for="website"> Your opinion on the website:</label>
+                &nbsp;
+                &nbsp;
+                <input type="radio" name="website" checked>
+                <label for="very_good">Very good</label>
+                &nbsp;
+                <input type="radio" name="website">
+                <label for="good">Good</label>
+                &nbsp;
+                <input type="radio" name="website">
+                <label for="Fair">Fair</label>
+                <br>
+                <br>
+                <label for="gender"> Gender:</label>
+                &nbsp;
+                &nbsp;
+                <input type="radio" name="gender" checked>
+                <label for="male">Male</label>
+                &nbsp;
+                <input type="radio" name="gender">
+                <label for="female">Female</label>
+                <br>
+                <br>
+                <label for="marital_status"> Marital status:</label>
+                <select name="marital_status">
+                    <option value="">single</option>
+                    <option value="">married</option>
+                    <option value="" selected>other</option>
+                </select>
+                <br>
+                <br>
+                <label for="known"> You know about my website from:</label>
+                <select multiple name="known">
+                    <option value="">internet</option>
+                    <option value="">friend</option>
+                    <option value="" >search engine</option>
+                    <option value="" >other</option>
+                </select>
+                <br>
+                <br>
+                <label for="mail">Mail:</label>
+                <input type="email" name="mail" placeholder="Enter your email">
+                <br>
+                <br>
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" placeholder="Enter your subject">
+                <br>
+                <br>
+                <label for="message">Message:</label>
+                <textarea name="message" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <div style="text-align: center;">
+                    <input type="submit" value="Submit">
+                    &nbsp;
+                    &nbsp;
+                    <input type="reset" value="Clear">
+                </div>
+
+            </fieldset>
+        </div>
+
+    </form>
+</body>
+</html>

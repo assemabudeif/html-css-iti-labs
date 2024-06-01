@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contuct</title>
+
+    <style>
+        table{
+            width: 70%;
+            margin-right: auto;
+            margin-left: auto;
+            border: 5px solid black;
+            border-spacing: 5;
+            column-rule: 1px;
+            column-rule: 1px;
+        }
+        th, td {
+            border: 1px solid black;
+            border-spacing: 0;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="./thankyou.html" method="get">
+        <table rule="rows">
+            <caption>Contact me Form</caption>
+            <tr>
+                <th colspan="2">
+                    Contact me
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Your Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter your name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Your opinion on the website:
+                </td>
+                <td>
+                    <input type="radio" name="website" checked>
+                    <label for="very_good">Very good</label>
+                    <br>
+                    <input type="radio" name="website">
+                    <label for="good">Good</label>
+                    <br>
+                    <input type="radio" name="website">
+                    <label for="Fair">Fair</label>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name="gender" checked>
+                    <label for="male">Male</label>
+                    <br>
+                    <input type="radio" name="gender">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Marital status:
+                </td>
+                <td>
+                    <select>
+                        <option value="">single</option>
+                        <option value="">married</option>
+                        <option value="" selected>other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    You know about my website from:
+                </td>
+                <td>
+                    <select multiple>
+                        <option value="">internet</option>
+                        <option value="">friend</option>
+                        <option value="" >search engine</option>
+                        <option value="" >other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mail:
+                </td>
+                <td>
+                    <input type="email" name="mail" placeholder="Enter your email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Subject:
+                </td>
+                <td>
+                    <input type="text" name="subject" placeholder="Enter your subject">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Message:
+                </td>
+                <td>
+                    <textarea name="message" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    &nbsp;
+                    &nbsp;
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
